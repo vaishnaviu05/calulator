@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>CALCULATOR</h1>
+    </div>
+    <div class="calculator">
+        <div class="parent">
+            <div class="screen">
+                <input class="expression" type="text">
+            </div>
+            <div class="operation">
+                <button data="+" class="btn task"><b>+</b></button>
+                <button data="-"class="btn task"><b>-</b></button>
+                <button data="*"class="btn task"><b>*</b></button>
+                <button data="/"class="btn task"><b>/</b></button>
+                <button data="9"class="btn"><b>9</b></button>
+                <button data="8"class="btn"><b>8</b></button>
+                <button data="7"class="btn"><b>7</b></button>
+                <button data="6"class="btn"><b>6</b></button>
+                <button data="5"class="btn"><b>5</b></button>
+                <button data="4"class="btn"><b>4</b></button>
+                <button data="3"class="btn"><b>3</b></button>
+                <button data="2"class="btn"><b>2</b></button>
+                <button data="1"class="btn"><b>1</b></button>
+                <button data="0"class="btn"><b>0</b></button>
+                <button onclick="clearData()" class="clear"><b>C</b></button> 
+                <button onclick="solve()" class="equal"><b>=</b></button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
